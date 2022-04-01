@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Country Continment</title>
+    <style>
+        input {
+            margin-left: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>You select country below and click Button then show alert continent zone</h2>
+    <select id="continent_select">
+        <option value="Select"> Select </option>
+        <option value="India"> India </option>
+        <option value="United States of America"> United States of America </option>
+        <option value="China"> China </option>
+        <option value="Nepal"> Nepal </option>
+        <option value="Australia"> Australia </option>
+        <option value="France"> France </option>
+        <option value="Germany"> Germany </option>
+        <option value="South Africa"> South Africa </option>
+        <option value="Nigeria"> Nigeria </option>
+        <option value="Mexico"> Mexico </option>
+        <option value="Argentina"> Argentina </option>
+        <option value="Brazil"> Brazil </option>
+        <option value="Canada"> Canada </option>
+        <option value="Singapore"> Singapore </option>
+        <option value="Sweden"> Sweden </option>
+        <input type="button" value="View Continent" onclick="ContinentZone()">
+    </select>
+</body>
+<script>
+    function ContinentZone() {
+        var country = document.getElementById("continent_select").value;
+        switch (country) {
+            case "India":
+                alert("Asia");   
+                break;
+
+            case "United States of America":
+                alert("North and Central America");  
+                break;
+
+            case "China":           
+                alert("Asia");
+                break;
+
+            case "Nepal":       
+                alert("Asia");
+                break;
+
+            case "Australia":
+                alert("Oceania");  
+                break;
+
+            case "France":
+                alert("Europe");  
+                break;
+
+            case "Germany":
+                alert("Europe");   
+                break;
+
+            case "South Africa":
+                alert("Africa");
+                break;
+
+            case "Nigeria":
+                alert("Africa");
+                break;
+
+            case "Mexico":
+                alert("North and Central America");  
+                break;
+
+            case "Argentina":
+                alert("South America");  
+                break;
+
+            case "Brazil":
+                alert("South America");   
+                break;
+
+            case "Canada":
+                alert("North and Central America");  
+                break;
+
+            case "Singapore":
+                alert("Asia"); 
+                break;
+
+            case "Sweden":
+                alert("Europe"); 
+                break;
+        }
+    }
+</script>
+
+</html>

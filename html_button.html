@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: repeat(9,auto);
+            grid-template-rows: auto;
+            gap: 10px;
+            width: 90%;
+            margin: auto;
+            margin-top: 300px;
+        }
+        div{
+            border-radius: 10px;
+        }
+        h1{
+            text-align: center;
+            color: white;
+            font-family: 'Roboto', sans-serif;
+        }
+        #box1{
+            background-color: #007bff;
+        }
+        #box2{
+            background-color: #6c757d;
+        }
+        #box3{
+            background-color: #28a745;
+        }
+        #box4{
+            background-color: #dc3545;
+        }
+        #box5{
+            background-color: #ffc107;
+        }
+        #box6{
+            background-color: #007bff;
+        }
+        #box7{
+            background-color: #f8f9fa;
+        }
+        #box8{
+            background-color: #343a40;
+        }
+        #box9{
+            background-color: #ffffff;
+        }
+        #box5>h1 , #box7>h1{
+            color: black;
+        }
+        #box9>h1{
+            color: #007bff;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <div id="box1">
+            <h1>Primary</h1>
+        </div>
+        <div id="box2">
+            <h1>Secondry</h1>
+        </div>
+        <div id="box3">
+            <h1>Success</h1>
+        </div>
+        <div id="box4">
+            <h1>Danger</h1>
+        </div>
+        <div id="box5">
+            <h1>Warning</h1>
+        </div>
+        <div id="box6">
+            <h1>Info</h1>
+        </div>
+        <div id="box7">
+            <h1>Light</h1>
+        </div>
+        <div id="box8">
+            <h1>Dark</h1>
+        </div>
+        <div id="box9">
+            <h1>Link</h1>
+        </div>
+    </div>
+    
+</body>
+</html>
